@@ -3,7 +3,19 @@
 History
 -------
 
+3.12 (2026-04-21)
++++++++++++++++++
+
+- Update to Unicode 17.0.0.
+- Issue a deprecation warning for the transitional argument.
+- Added lazy-loading to provide some performance improvements.
+- Removed vestiges of code related to Python 2 support, including
+  segmentation of data structures specific to Jython.
+
+Thanks to Rodrigo Nogueira for contributions to this release.
+
 3.11 (2025-10-12)
++++++++++++++++++
 
 - Update to Unicode 16.0.0, including significant changes to UTS46
   processing. As a result of Unicode ending support for it, transitional
